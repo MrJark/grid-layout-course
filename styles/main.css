@@ -72,3 +72,24 @@ nav .profile-link {
 nav .profile-link a:hover {
     text-decoration: underline;
 }
+
+/* MAIN */
+
+main {
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/cover.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+main .text-main {
+    color: #F8FFFF;
+    font-family: 'Poppins';
+    text-align: center;
+}

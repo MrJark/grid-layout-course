@@ -42,6 +42,9 @@ header .social-icon-container .icons a {
     color: #FFF8FD;
     margin-right: 30px;
 }
+header .social-icon-container .icons a span img {
+    width: 25px;
+}
 
 /* Header/nav */
 
@@ -52,6 +55,8 @@ nav {
 }
 nav .nav-logo-container {
     margin-left: 50px;
+    display: flex;
+    align-items: center;
 }
 nav .nav-logo-container img {
     width: 200px;

@@ -9,7 +9,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #262C32;
+    background-color: #202020;
     font-family: 'Alegreya Sans'
 }
 a {
@@ -52,6 +52,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 80px;
+    
 }
 nav .nav-logo-container {
     margin-left: 50px;
@@ -78,18 +79,40 @@ nav .profile-link a:hover {
 main {
     width: 100%;
     height: 100%;
-    background-image: url(/assets/cover.png);
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('../assets/cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main .main-container {
     display: grid;
     grid-template-columns: 1fr;
+    justify-items: center;
     
 }
 main .text-main {
     color: #F8FFFF;
     font-family: 'Poppins';
     text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+main .btn-main {
+    background-color: #0C9A9D;
+    color: #FFF8FD;
+    width: 150px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 2px solid #0C9A9D;
+}
+main .btn-main:hover {
+    background-color: transparent;
+    color: #0C9A9D;
 }

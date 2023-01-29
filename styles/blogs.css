@@ -3,13 +3,7 @@
     padding: 0;
     margin: 0;
 }
-body { 
-    /* Con estas especificaciones conseguimos que no podamos hacer scroll, conseguimos una página estáticas */
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+body{
     background-color: #202020;
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -73,49 +67,4 @@ nav .profile-link {
 }
 nav .profile-link a:hover {
     text-decoration: underline;
-}
-
-/* MAIN */
-
-.home-main {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('../assets/cover.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-main .main-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    
-}
-main .text-main {
-    color: #F8FFFF;
-    font-family:  'Poppins',sans-serif;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 10px;
-    margin-bottom: 30px;
-}
-main .btn-main {
-    background-color: #0C9A9D;
-    color: #FFF8FD;
-    width: 150px;
-    height: 30px;
-    font-family:  'Poppins',sans-serif;
-    font-weight: 700;
-    border-radius: 10px;
-    border: 2px solid #0C9A9D;
-    letter-spacing: 1px;
-}
-main .btn-main:hover {
-    background-color: transparent;
-    color: #0C9A9D;
-    letter-spacing: 2px;
 }

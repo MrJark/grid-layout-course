@@ -36,6 +36,10 @@ header .social-icon-container {
     justify-content: flex-end;
     background-color: #F8FFFF;
 }
+header .social-icon-container .icons {
+    display: flex;
+    align-items: center;
+}
 header .social-icon-container .icons:last-child {
     margin-right: 60px;
 }

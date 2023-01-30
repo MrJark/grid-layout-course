@@ -4,19 +4,24 @@
     margin: 0;
 }
 body { 
-    /* Con estas especificaciones conseguimos que no podamos hacer scroll, conseguimos una página estáticas */
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #202020;
+    
+    background-color: #262C32;
     font-family: 'Alegreya Sans', sans-serif;
+    color: #FFF8FD;
 }
 a {
     text-decoration: none;
     display: inline;
     color: #FFF8FD;
+}
+.home-body {
+    /* Con estas especificaciones conseguimos que no podamos hacer scroll, conseguimos una página estáticas */
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* HEADER */

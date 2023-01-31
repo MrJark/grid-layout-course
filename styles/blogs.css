@@ -74,6 +74,7 @@
     padding: 20px;
     text-align: center;
     letter-spacing: 2px;
+    margin-bottom: 10px;
 }
 .blogs-posts-container .post-container {
     display: inline-block;
@@ -96,6 +97,7 @@
 }
 .blogs-posts-container .post-container img {
     width: 100%;
+    border-radius: 20px;
 }
 
 /* FOOTER */

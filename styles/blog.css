@@ -1,0 +1,110 @@
+
+/* MAIN */
+/* Main/Img */
+
+.blogpost-img-container{
+    display: grid;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 90%;
+    /* padding: 0 50px 40px; */
+}
+.blogpost-img-container img{
+    width: 100%;
+    margin: auto;
+    opacity: 40%;
+    border-radius: 20px;
+}
+
+/* Main/Blogpost */
+
+.blogpost-main-container {
+    display: grid;
+    width: 90%;
+    margin: auto;
+}
+.blogpost-main-container h3 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: 'Alegreya Sans',sans-serif;
+    color: #FFF8FD;
+    border-bottom: 1px solid #333840;
+}
+
+.blogpost-main-container .blogpost-content h1 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.blogpost-main-container .blogpost-content p {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+/* Main/Contact */
+
+.contact-main-container {
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+    background-color: #333840;
+    width: 100%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-in-container {
+    display: flex;
+    align-items: center;
+}
+.contact-main-container .share-contact-icons {
+    width: 50px;
+    margin: 30px;
+}
+.contact-in-container .contact-left {
+    display: grid;
+}
+.contact-in-container .contact-left a {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 2px;
+    color: #FFF8FD;
+}
+.contact-in-container .contact-left a:hover {
+    color: #0C9A9D;
+}
+.contact-in-container .contact-left p {
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #FFF8FD;
+    padding-right: 40px;
+}
+.contact-in-container .contact-right {
+    display: grid;
+}
+.contact-in-container .contact-right a {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 2px;
+    color: #FFF8FD;
+}
+.contact-in-container .contact-right a:hover {
+    color: #0C9A9D;
+}
+.contact-in-container .contact-right p {
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #FFF8FD;
+    padding-right: 40px;
+}

@@ -1,0 +1,34 @@
+/* MAIN */
+/* Main/Profile-Description */
+
+
+
+/* Main/Proyects */
+
+.proyects-descriptions-container {
+    margin-top: 30px;
+}
+.proyects-descriptions-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.proyects-descriptions-container .proyects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 40px;
+    border-top: 1px solid #333840;
+}
+.proyects-descriptions-container .proyects-container .proyect-description{
+    width: 90%;
+    
+}
+.proyects-descriptions-container .proyects-container h2 {
+    margin-bottom: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}

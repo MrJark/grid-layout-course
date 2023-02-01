@@ -1,14 +1,45 @@
 /* MAIN */
 /* Main/Profile-Description */
 
-
-
-/* Main/Proyects */
-
-.proyects-descriptions-container {
-    margin-top: 30px;
+.profile-main-container {
+    border-bottom: 1px solid #333840;
+    padding-bottom: 12px;
+    background-color: #333840;
 }
-.proyects-descriptions-container h3 {
+.profile-main-container img {
+    width: 320px;
+    border-radius: 20px;
+    padding-top: 13px;
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-container-info {
+    padding: 0px 60px 0px 60px;
+}
+.profile-container-info h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+.profile-container-info p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+/* Main/Projects */
+
+.projects-descriptions-container {
+    margin-top: 30px;
+    
+}
+.projects-descriptions-container h3 {
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
@@ -16,19 +47,26 @@
     font-size: 30px;
     letter-spacing: 3px;
 }
-.proyects-descriptions-container .proyects-container {
+.projects-descriptions-container .profile-projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 40px;
     border-top: 1px solid #333840;
 }
-.proyects-descriptions-container .proyects-container .proyect-description{
+.projects-descriptions-container .profile-projects-container .project-description{
     width: 90%;
-    
 }
-.proyects-descriptions-container .proyects-container h2 {
+.projects-descriptions-container .profile-projects-container .project-description h4 {
     margin-bottom: 8px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
     letter-spacing: 2px;
     text-decoration: underline;
+}
+.profile-projects-container .project-description p {
+    font-family: 'Alegreja Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 16px;
 }

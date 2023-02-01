@@ -1,0 +1,45 @@
+@media (max-width: 900px) {
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+    .blogs-news-info-container h3 {
+        margin-top: 12px;
+    }
+    .blogs-posts-container .post-container {
+        max-width: 45%;
+    }
+    .profile-projects-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+    }
+    .profile-main-container {
+        padding: 12px 20px 20px 20px;
+    }
+    .profile-main-container .profile-container {
+        display: block;
+    }
+    .profile-main-container .profile-container-info h2 {
+        margin-top: 12px;
+    }
+    .profile-main-container .profile-container .profile-container-img {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+    nav .profile-link {
+        margin-right: 12px;
+    }
+    .blogs-posts-container .post-container {
+        max-width: 85%;
+    }
+    header .social-icon-container .icons:last-child {
+        margin-right: 0px;
+    }
+    header .social-icon-container {
+        justify-content: center;
+    }
+}

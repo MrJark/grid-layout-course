@@ -3,7 +3,7 @@
 
 .profile-main-container {
     border-bottom: 1px solid #333840;
-    padding-bottom: 12px;
+    padding: 12px 20px 12px 20px;
     background-color: #333840;
 }
 .profile-main-container img {
@@ -50,7 +50,7 @@
 .projects-descriptions-container .profile-projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 40px;
+    padding: 40px 20px 12px 20px;
     border-top: 1px solid #333840;
 }
 .projects-descriptions-container .profile-projects-container .project-description{
